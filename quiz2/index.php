@@ -39,7 +39,7 @@
 		<div ng-controller="FlickrController as flickr">
 			<div class="row">
 				<!--<li ng-repeat="todo in todoList.todos">-->
-				<div class="col-sm-2 flickrPhotos" ng-repeat="photo in flickr.photos">
+				<div class="col-md-2 col-sm-3 col-xs-4 flickrPhotos" ng-repeat="photo in flickr.photos">
 					<a data-modal-url="{{photo}}" data-toggle="modal" data-target="#modal" target="_blank">
 						<img class="img-responsive" src="{{photo}}" />
 					</a>
